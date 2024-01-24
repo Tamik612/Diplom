@@ -1,0 +1,22 @@
+Полученные данные из веб-сайта:
+{
+    "https://demo.testfire.net/search.jsp": {
+        "action": "https://demo.testfire.net/search.jsp",
+        "method": "get",
+        "inputs": {
+            "query": "saddasadsaadasadaasda",
+            "": "Go"
+        }
+    },
+    "https://demo.testfire.net/doLogin": {
+        "action": "https://demo.testfire.net/doLogin",
+        "method": "post",
+        "inputs": {
+            "uid": "admin'--",
+            "passw": "dsadasd",
+            "btnSubmit": "Login"
+        }
+    }
+}
+
+Обнаружена SQL-инъекция.
